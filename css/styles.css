@@ -27,8 +27,8 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  background-color: #fff;
-  color: #243a6f;
+  background-color: black;
+  color: white;
   position: relative;
   z-index: 1;
 }
@@ -237,7 +237,7 @@ li {
   position: absolute;
   bottom: -10%;
   right: -5%;
-  height: 70rem;
+  height: 55rem;
   object-fit: contain;
   top: 10%;
 }
@@ -341,7 +341,7 @@ li {
 
 /* Adverts */
 .section {
-  padding: 10rem 0 5rem 0;
+  padding: 1rem 0 5rem 0;
 }
 
 .advert-center {
@@ -1058,7 +1058,7 @@ th:last-child {
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-  background-color: white;
+  background-color: black;
 }
 
 .styled-table tbody tr:last-of-type {
@@ -1066,5 +1066,5 @@ th:last-child {
 }
 .styled-table tbody tr.active-row {
   font-weight: bold;
-  color: black;
+  color: white;
 }
