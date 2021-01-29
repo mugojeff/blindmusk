@@ -278,7 +278,7 @@ li {
   margin-top: 5rem;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1440px) {
   .header .hero-img {
     right: -20%;
   }
@@ -982,8 +982,8 @@ table {
 th {
   text-align: left;
   padding: 0.5rem;
-  color: #fff;
-  background-color: black;
+  color: black;
+  background-color: white;
   font-weight: normal;
 }
 
@@ -1045,7 +1045,7 @@ th:last-child {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
 .styled-table thead tr {
-  background-color: #009879;
+  background-color: white;
   color: #ffffff;
   text-align: left;
 }
@@ -1054,17 +1054,18 @@ th:last-child {
   padding: 12px 15px;
 }
 .styled-table tbody tr {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid white;
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-  background-color: black;
+  background-color: white;
 }
 
 .styled-table tbody tr:last-of-type {
-  border-bottom: 2px solid #009879;
+  border-bottom: 2px solid black;
 }
 .styled-table tbody tr.active-row {
   font-weight: bold;
-  color: white;
+  color: black;
+  background-color: white;
 }
