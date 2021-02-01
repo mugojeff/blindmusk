@@ -275,7 +275,8 @@ li {
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
-  margin-top: 5rem;
+  margin-top: 10rem;
+  margin-left: 5rem;
 }
 
 @media only screen and (max-width: 1440px) {
